@@ -78,12 +78,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Pisces',
-    sidebar: {"position":"right","display":"post"},
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: 0,
-      author: '博主'
+      userId: 6245026662564496000,
+      author: 'Mr.Five'
     }
   };
 </script>
@@ -123,11 +123,11 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
+      <div class="header-inner"><div class="site-meta custom-logo">
   
 
   <div class="custom-logo-site-title">
@@ -301,7 +301,21 @@
           </div>
           
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -329,7 +343,7 @@
               <span class="links-of-author-item">
                 <a href="https://twitter.com" target="_blank">
                   
-                    <i class="fa fa-globe"></i> twitter
+                    <i class="fa fa-twitter"></i> Twitter
                   
                 </a>
               </span>
@@ -337,7 +351,7 @@
               <span class="links-of-author-item">
                 <a href="http://weibo.com" target="_blank">
                   
-                    <i class="fa fa-globe"></i> weibo
+                    <i class="fa fa-weibo"></i> Weibo
                   
                 </a>
               </span>
@@ -345,7 +359,7 @@
               <span class="links-of-author-item">
                 <a href="http://douban.com" target="_blank">
                   
-                    <i class="fa fa-globe"></i> douban
+                    <i class="fa fa-globe"></i> Douban
                   
                 </a>
               </span>
@@ -353,7 +367,7 @@
               <span class="links-of-author-item">
                 <a href="http://www.zhihu.com" target="_blank">
                   
-                    <i class="fa fa-globe"></i> zhihu
+                    <i class="fa fa-globe"></i> Zhihu
                   
                 </a>
               </span>
@@ -369,7 +383,15 @@
             <p class="site-author-name">友情链接</p>
             
               <span class="links-of-author-item">
-                <a href="http://macshuo.com/" target="_blank">MacTalk</a>
+                <a href="http://www.heibaipig.com/" target="_blank">黑白猪</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.w3cplus.com/" target="_blank">w3cplus</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zaoduke.net/" target="_blank">前端早读课</a>
               </span>
             
           
@@ -391,7 +413,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2015 - 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -496,6 +518,9 @@
   </script>
 
   
+    
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
     
   
 
