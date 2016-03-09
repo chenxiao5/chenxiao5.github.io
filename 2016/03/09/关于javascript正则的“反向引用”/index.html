@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="backbone.js,学习," />
+  <meta name="keywords" content="学习,javascript," />
 
 
 
@@ -59,19 +59,28 @@
 
 
 
-<meta name="description" content="123function aaa() &amp;#123;    var aa = null;&amp;#125;;
-AboutAboutAboutAbout你好">
+<meta name="description" content="前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。
+
+
+首先先看下面这个例子：12&quot;abcd&quot;.match(/(a(bc)d)/);  //result: [&quot;abcd&quot;, &quot;abcd&quot;, &quot;bc&quot;]
+这个例子说明看括">
 <meta property="og:type" content="article">
-<meta property="og:title" content="backbone.js学习日记（一）">
-<meta property="og:url" content="http://yoursite.com/2016/03/09/backbone-js学习日记（一）/index.html">
+<meta property="og:title" content="关于Javascript正则的"反向引用"">
+<meta property="og:url" content="http://yoursite.com/2016/03/09/关于javascript正则的“反向引用”/index.html">
 <meta property="og:site_name" content="Mr.five的小小天地">
-<meta property="og:description" content="123function aaa() &amp;#123;    var aa = null;&amp;#125;;
-AboutAboutAboutAbout你好">
-<meta property="og:updated_time" content="2016-03-09T05:33:11.000Z">
+<meta property="og:description" content="前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。
+
+
+首先先看下面这个例子：12&quot;abcd&quot;.match(/(a(bc)d)/);  //result: [&quot;abcd&quot;, &quot;abcd&quot;, &quot;bc&quot;]
+这个例子说明看括">
+<meta property="og:updated_time" content="2016-03-09T07:12:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="backbone.js学习日记（一）">
-<meta name="twitter:description" content="123function aaa() &amp;#123;    var aa = null;&amp;#125;;
-AboutAboutAboutAbout你好">
+<meta name="twitter:title" content="关于Javascript正则的"反向引用"">
+<meta name="twitter:description" content="前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。
+
+
+首先先看下面这个例子：12&quot;abcd&quot;.match(/(a(bc)d)/);  //result: [&quot;abcd&quot;, &quot;abcd&quot;, &quot;bc&quot;]
+这个例子说明看括">
 
 
 
@@ -89,7 +98,7 @@ AboutAboutAboutAbout你好">
   };
 </script>
 
-  <title> backbone.js学习日记（一） | Mr.five的小小天地 </title>
+  <title> 关于Javascript正则的"反向引用" | Mr.five的小小天地 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -267,7 +276,7 @@ AboutAboutAboutAbout你好">
             
             
               
-                backbone.js学习日记（一）
+                关于Javascript正则的"反向引用"
               
             
           </h1>
@@ -279,7 +288,7 @@ AboutAboutAboutAbout你好">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-03-09T17:01:15+08:00" content="2016-03-09">
+            <time itemprop="dateCreated" datetime="2016-03-09T14:38:39+08:00" content="2016-03-09">
               2016-03-09
             </time>
           </span>
@@ -309,8 +318,8 @@ AboutAboutAboutAbout你好">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/03/09/backbone-js学习日记（一）/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/09/backbone-js学习日记（一）/" itemprop="commentsCount"></span>
+                <a href="/2016/03/09/关于javascript正则的“反向引用”/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/09/关于javascript正则的“反向引用”/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -332,8 +341,18 @@ AboutAboutAboutAbout你好">
       
 
       
-        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">aaa</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> aa = <span class="literal">null</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h1 id="About"><a href="#About" class="headerlink" title="About"></a>About</h1><h2 id="About-1"><a href="#About-1" class="headerlink" title="About"></a>About</h2><h3 id="About-2"><a href="#About-2" class="headerlink" title="About"></a>About</h3><h4 id="About-3"><a href="#About-3" class="headerlink" title="About"></a>About</h4><h4 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h4>
+        <blockquote>
+<p>前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。</p>
+</blockquote>
+<hr>
+<h3 id="首先先看下面这个例子："><a href="#首先先看下面这个例子：" class="headerlink" title="首先先看下面这个例子："></a>首先先看下面这个例子：</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"abcd"</span>.match(<span class="regexp">/(a(bc)d)/</span>);  </span><br><span class="line"><span class="comment">//result: ["abcd", "abcd", "bc"]</span></span><br></pre></td></tr></table></figure>
+<p>这个例子说明看括号匹配顺序是按<strong>左括号</strong>计算的。（这是别人的理解，我的理解是匹配顺序是按<strong>从外到里从左到右</strong>计算的，每个反向引用都由一个编号或名称来标识，并通过“\编号”表示法进行引用，外面的组的编号靠前。也就是说引用分组是编号排列是<strong>从外到内</strong>编排。）</p>
+<h3 id="再看这个例子"><a href="#再看这个例子" class="headerlink" title="再看这个例子"></a>再看这个例子</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'aaa'</span>.match(<span class="regexp">/(a\1)/</span>);</span><br><span class="line"><span class="comment">//result: ['a']  </span></span><br><span class="line"><span class="string">'aaaaaaa'</span>.match(<span class="regexp">/(a\1\1\1\1\1)/</span>);  </span><br><span class="line"><span class="comment">//result: ['a']</span></span><br></pre></td></tr></table></figure>
+<p>由这个例子可以看出<code>/(a\1)/</code>在第一个括号中使用<code>\1</code>引用是没有意义的，同时在chrome中的测试结果表明，无论在第n个括号中有几个<code>\n</code>都会被忽略。（既从最外层括号往里层数）</p>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>基于上述两个例子的解读，咱们可以把下边的例子进行转换<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/[abc]\1/g</span>);<span class="comment">//null  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/([abc])\1/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/(([abc])\1)\1/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/(([abc])\1)\2/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/((([abc])\1)\2)\3/g</span>);<span class="comment">//["aaa", "bbb", "ccc"]</span></span><br></pre></td></tr></table></figure></p>
+<p>可简化为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/[abc]\1/g</span>);<span class="comment">//null  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/([abc])\1/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/(([abc]))\1/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/(([abc]))\2/g</span>);<span class="comment">//["aa", "bb", "cc"]  </span></span><br><span class="line"><span class="string">'aaabbbcccdddeeefff'</span>.match(<span class="regexp">/((([abc]))\2)\3/g</span>);<span class="comment">//["aaa", "bbb", "ccc"]</span></span><br></pre></td></tr></table></figure></p>
+<p>详细请看：<a href="http://segmentfault.com/q/1010000000580762" target="_blank" rel="external">http://segmentfault.com/q/1010000000580762</a></p>
+
       
     </div>
 
@@ -347,9 +366,9 @@ AboutAboutAboutAbout你好">
       
         <div class="post-tags">
           
-            <a href="/tags/backbone-js/" rel="tag">#backbone.js</a>
-          
             <a href="/tags/学习/" rel="tag">#学习</a>
+          
+            <a href="/tags/javascript/" rel="tag">#javascript</a>
           
         </div>
       
@@ -358,13 +377,13 @@ AboutAboutAboutAbout你好">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/09/关于javascript正则的“反向引用”/" rel="next" title="关于Javascript正则的"反向引用"">
-                <i class="fa fa-chevron-left"></i> 关于Javascript正则的"反向引用"
-              </a>
-            
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/09/backbone-js学习日记（一）/" rel="prev" title="backbone.js学习日记（一）">
+                backbone.js学习日记（一） <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -379,10 +398,10 @@ AboutAboutAboutAbout你好">
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/03/09/backbone-js学习日记（一）/"
-     data-title="backbone.js学习日记（一）"
+        <div class="ds-share flat" data-thread-key="2016/03/09/关于javascript正则的“反向引用”/"
+     data-title="关于Javascript正则的"反向引用""
      data-content=""
-     data-url="http://yoursite.com/2016/03/09/backbone-js学习日记（一）/">
+     data-url="http://yoursite.com/2016/03/09/关于javascript正则的“反向引用”/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -409,8 +428,8 @@ AboutAboutAboutAbout你好">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/03/09/backbone-js学习日记（一）/"
-           data-title="backbone.js学习日记（一）" data-url="http://yoursite.com/2016/03/09/backbone-js学习日记（一）/">
+      <div class="ds-thread" data-thread-key="2016/03/09/关于javascript正则的“反向引用”/"
+           data-title="关于Javascript正则的"反向引用"" data-url="http://yoursite.com/2016/03/09/关于javascript正则的“反向引用”/">
       </div>
     
   </div>
@@ -569,7 +588,7 @@ AboutAboutAboutAbout你好">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#About"><span class="nav-number">1.</span> <span class="nav-text">About</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#About-1"><span class="nav-number">1.1.</span> <span class="nav-text">About</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#About-2"><span class="nav-number">1.1.1.</span> <span class="nav-text">About</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#About-3"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">About</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#你好"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">你好</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#首先先看下面这个例子："><span class="nav-number">1.</span> <span class="nav-text">首先先看下面这个例子：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#再看这个例子"><span class="nav-number">2.</span> <span class="nav-text">再看这个例子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#最后"><span class="nav-number">3.</span> <span class="nav-text">最后</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

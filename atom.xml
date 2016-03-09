@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-08T09:42:00.000Z</updated>
+  <updated>2016-03-09T05:33:11.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://yoursite.com/2016/03/09/backbone-js%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://yoursite.com/2016/03/09/backbone-js学习日记（一）/</id>
     <published>2016-03-09T09:01:15.000Z</published>
-    <updated>2016-03-08T09:42:00.000Z</updated>
+    <updated>2016-03-09T05:33:11.000Z</updated>
     
-    <content type="html">&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;aaa&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; aa = &lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    <content type="html">&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;aaa&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; aa = &lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;About&quot;&gt;&lt;a href=&quot;#About&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h1&gt;&lt;h2 id=&quot;About-1&quot;&gt;&lt;a href=&quot;#About-1&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h2&gt;&lt;h3 id=&quot;About-2&quot;&gt;&lt;a href=&quot;#About-2&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h3&gt;&lt;h4 id=&quot;About-3&quot;&gt;&lt;a href=&quot;#About-3&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h4&gt;&lt;h4 id=&quot;你好&quot;&gt;&lt;a href=&quot;#你好&quot; class=&quot;headerlink&quot; title=&quot;你好&quot;&gt;&lt;/a&gt;你好&lt;/h4&gt;</content>
     
     <summary type="html">
     
@@ -36,6 +37,43 @@
       <category term="backbone.js" scheme="http://yoursite.com/tags/backbone-js/"/>
     
       <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Javascript正则的&quot;反向引用&quot;</title>
+    <link href="http://yoursite.com/2016/03/09/%E5%85%B3%E4%BA%8Ejavascript%E6%AD%A3%E5%88%99%E7%9A%84%E2%80%9C%E5%8F%8D%E5%90%91%E5%BC%95%E7%94%A8%E2%80%9D/"/>
+    <id>http://yoursite.com/2016/03/09/关于javascript正则的“反向引用”/</id>
+    <published>2016-03-09T06:38:39.000Z</published>
+    <updated>2016-03-09T07:12:00.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;首先先看下面这个例子：&quot;&gt;&lt;a href=&quot;#首先先看下面这个例子：&quot; class=&quot;headerlink&quot; title=&quot;首先先看下面这个例子：&quot;&gt;&lt;/a&gt;首先先看下面这个例子：&lt;/h3&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;abcd&quot;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(a(bc)d)/&lt;/span&gt;);  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//result: [&quot;abcd&quot;, &quot;abcd&quot;, &quot;bc&quot;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这个例子说明看括号匹配顺序是按&lt;strong&gt;左括号&lt;/strong&gt;计算的。（这是别人的理解，我的理解是匹配顺序是按&lt;strong&gt;从外到里从左到右&lt;/strong&gt;计算的，每个反向引用都由一个编号或名称来标识，并通过“\编号”表示法进行引用，外面的组的编号靠前。也就是说引用分组是编号排列是&lt;strong&gt;从外到内&lt;/strong&gt;编排。）&lt;/p&gt;
+&lt;h3 id=&quot;再看这个例子&quot;&gt;&lt;a href=&quot;#再看这个例子&quot; class=&quot;headerlink&quot; title=&quot;再看这个例子&quot;&gt;&lt;/a&gt;再看这个例子&lt;/h3&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaa&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(a\1)/&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//result: [&#39;a&#39;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaaaaaa&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(a\1\1\1\1\1)/&lt;/span&gt;);  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//result: [&#39;a&#39;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;由这个例子可以看出&lt;code&gt;/(a\1)/&lt;/code&gt;在第一个括号中使用&lt;code&gt;\1&lt;/code&gt;引用是没有意义的，同时在chrome中的测试结果表明，无论在第n个括号中有几个&lt;code&gt;\n&lt;/code&gt;都会被忽略。（既从最外层括号往里层数）&lt;/p&gt;
+&lt;h3 id=&quot;最后&quot;&gt;&lt;a href=&quot;#最后&quot; class=&quot;headerlink&quot; title=&quot;最后&quot;&gt;&lt;/a&gt;最后&lt;/h3&gt;&lt;p&gt;基于上述两个例子的解读，咱们可以把下边的例子进行转换&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/[abc]\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//null  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/([abc])\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(([abc])\1)\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(([abc])\1)\2/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/((([abc])\1)\2)\3/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aaa&quot;, &quot;bbb&quot;, &quot;ccc&quot;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;可简化为&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/[abc]\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//null  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/([abc])\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(([abc]))\1/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/(([abc]))\2/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;]  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;aaabbbcccdddeeefff&#39;&lt;/span&gt;.match(&lt;span class=&quot;regexp&quot;&gt;/((([abc]))\2)\3/g&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//[&quot;aaa&quot;, &quot;bbb&quot;, &quot;ccc&quot;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;详细请看：&lt;a href=&quot;http://segmentfault.com/q/1010000000580762&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://segmentfault.com/q/1010000000580762&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;前言：一直忙着找实习单位，有几月没有写过博客，也没有学习过，终于找到一个勉强合适的，还是赶紧加油吧，别被别人甩太远了！  本来是在看着阿树博客里的jQuery规范的，不知道怎么搞得，稀里糊涂的就看到正则去了，把学到的东西总结一下。&lt;/p&gt;
+&lt;/bl
+    
+    </summary>
+    
+      <category term="日常学习" scheme="http://yoursite.com/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
