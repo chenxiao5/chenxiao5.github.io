@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-21T19:39:47.000Z</updated>
+  <updated>2016-03-22T09:39:34.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://yoursite.com/2016/03/22/%E5%9F%BA%E4%BA%8Einline-block%E5%B8%83%E5%B1%80-vertical-align%E7%9A%84%E7%A0%94%E7%A9%B6/"/>
     <id>http://yoursite.com/2016/03/22/基于inline-block布局-vertical-align的研究/</id>
     <published>2016-03-21T19:38:14.000Z</published>
-    <updated>2016-03-21T19:39:47.000Z</updated>
+    <updated>2016-03-22T09:39:34.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;基于inline-block布局-vertical-align探究&quot;&gt;&lt;a href=&quot;#基于inline-block布局-vertical-align探究&quot; class=&quot;headerlink&quot; title=&quot;#基于inline-block布局+vertical-align探究&quot;&gt;&lt;/a&gt;#基于inline-block布局+vertical-align探究&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;前言：这个探究主要源于ife任务6的一个布局困扰，继而产生以下这些探究及结论，如解释有误或有新的见解，请及时与&lt;a href=&quot;http://chenxiao5.github.io/2016/03/09/backbone-js%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我&lt;/a&gt;联系，谢谢大家的捧场。  &lt;/p&gt;
+&lt;p&gt;前言：这个探究主要源于ife任务6的一个布局困扰，继而产生以下这些探究及结论，如解释有误或有新的见解，请及时与&lt;a href=&quot;http://chenxiao5.github.io/2016/03/22/%E5%9F%BA%E4%BA%8Einline-block%E5%B8%83%E5%B1%80-vertical-align%E7%9A%84%E7%A0%94%E7%A9%B6/#more&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我&lt;/a&gt;联系，谢谢大家的捧场。  &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;1-问题引入&quot;&gt;&lt;a href=&quot;#1-问题引入&quot; class=&quot;headerlink&quot; title=&quot;1.问题引入&quot;&gt;&lt;/a&gt;1.问题引入&lt;/h3&gt;&lt;hr&gt;
 &lt;p&gt;有需求才会有解决方案，那么，这个需求是什么呢？&lt;br&gt;这是任务6布局的两个点&lt;br&gt;&lt;img src=&quot;http://chenxiao5.github.io/images/blog/%E5%9F%BA%E4%BA%8Einline-block%E5%B8%83%E5%B1%80%E7%A0%94%E7%A9%B6/issue-01.png&quot; alt=&quot;问题1&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://chenxiao5.github.io/images/blog/%E5%9F%BA%E4%BA%8Einline-block%E5%B8%83%E5%B1%80%E7%A0%94%E7%A9%B6/issue-02.png&quot; alt=&quot;问题2&quot;&gt;&lt;br&gt;&lt;code&gt;review&lt;/code&gt;了许多同学的代码，实现方式基本局限于两种，&lt;code&gt;position定位&lt;/code&gt;、&lt;code&gt;float+内外边距&lt;/code&gt;再者就是两者结合，那么又没有第三种更为简单的适合的方法呢？&lt;br&gt;答案是有的，那就是基于&lt;code&gt;inlink-block&lt;/code&gt;+&lt;code&gt;vertical-align&lt;/code&gt;的方式  &lt;/p&gt;
@@ -51,9 +51,9 @@
       <category term="日常学习" scheme="http://yoursite.com/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
       <category term="百度ife" scheme="http://yoursite.com/tags/%E7%99%BE%E5%BA%A6ife/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
