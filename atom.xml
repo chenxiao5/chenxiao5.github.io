@@ -213,6 +213,59 @@
   </entry>
   
   <entry>
+    <title>2016年计划</title>
+    <link href="http://yoursite.com/2016/04/01/2016%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
+    <id>http://yoursite.com/2016/04/01/2016年计划/</id>
+    <published>2016-03-31T16:30:39.000Z</published>
+    <updated>2016-05-02T17:10:28.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：开始学习前端有一阵子了，直到辞了实习去参加百度ife的课程才发现，原来自己被别人落下了那么多；一直鼓吹自己专攻前端，却被别人业余学习前端虐的体无完肤，再则人家压根就没想过入这一行，更是脸面无存。老黑博客写到“很多时候有人认为自己缺少的是平台，是经验，是别人的认可，是一个机会，或者其他云云，但你真正缺少的是未知惊喜之前的准备，没有准备好，也许惊喜就变成了惊讶”，原来我一直都没有准备好！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;目前知识技能打分&quot;&gt;&lt;a href=&quot;#目前知识技能打分&quot; class=&quot;headerlink&quot; title=&quot;目前知识技能打分&quot;&gt;&lt;/a&gt;目前知识技能打分&lt;/h2&gt;&lt;h3 id=&quot;基础部分&quot;&gt;&lt;a href=&quot;#基础部分&quot; class=&quot;headerlink&quot; title=&quot;基础部分&quot;&gt;&lt;/a&gt;基础部分&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;html5 50分&lt;/li&gt;
+&lt;li&gt;css3 80分&lt;/li&gt;
+&lt;li&gt;javascript 50分&lt;/li&gt;
+&lt;li&gt;数据结构与算法 10分&lt;/li&gt;
+&lt;li&gt;项目经验 20分&lt;/li&gt;
+&lt;li&gt;设计图还原速度及转化 50分&lt;/li&gt;
+&lt;li&gt;多终端web开发 30分&lt;/li&gt;
+&lt;li&gt;调试技术 30分&lt;/li&gt;
+&lt;li&gt;http协议 20分&lt;/li&gt;
+&lt;li&gt;框架设计与约定规范 40分&lt;/li&gt;
+&lt;li&gt;设计开发模式 30分&lt;/li&gt;
+&lt;li&gt;第三方库实战熟悉度 50分&lt;/li&gt;
+&lt;li&gt;性能优化，低耦合 40分&lt;/li&gt;
+&lt;li&gt;后端知识 20分&lt;/li&gt;
+&lt;li&gt;。。。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;懂得便写，懵懵懂懂实在没必要写出来让人见笑。。。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;###16年整体的学习计划&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;学习高数（为css3的贝塞尔曲线以及矩阵开发做准备）&lt;/li&gt;
+&lt;li&gt;日常英语&lt;/li&gt;
+&lt;li&gt;技术部分&lt;br&gt; 1). webGL入门&lt;br&gt; 2). 前端可视化深入&lt;br&gt; 3). node.js掌握&lt;br&gt; 4). es7新特性学习&lt;br&gt; 5). Python以及go的入门&lt;br&gt; 6). reactjs以及Angularjs的掌握 backbone的深入&lt;br&gt; 7). react native app开发的掌握&lt;br&gt; 8). 数据结构与算法的加深学习&lt;br&gt; 9). 设计模式的学习&lt;br&gt; 10). http协议2.0的基本了解&lt;/li&gt;
+&lt;li&gt;书籍阅读（太泛，在此不一一列举）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;差不多半年，试一下能不能搞得定，毕竟结果谁都说不定。尽心尽力而已！&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;前言：开始学习前端有一阵子了，直到辞了实习去参加百度ife的课程才发现，原来自己被别人落下了那么多；一直鼓吹自己专攻前端，却被别人业余学习前端虐的体无完肤，再则人家压根就没想过入这一行，更是脸面无存。老黑博客写到“很多时候有人认为自己缺少的是平台，
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>基于Inline-Block布局+vertical-Align的研究</title>
     <link href="http://yoursite.com/2016/03/22/%E5%9F%BA%E4%BA%8Einline-block%E5%B8%83%E5%B1%80-vertical-align%E7%9A%84%E7%A0%94%E7%A9%B6/"/>
     <id>http://yoursite.com/2016/03/22/基于inline-block布局-vertical-align的研究/</id>
@@ -251,30 +304,6 @@
       <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="百度ife" scheme="http://yoursite.com/tags/%E7%99%BE%E5%BA%A6ife/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2016年计划</title>
-    <link href="http://yoursite.com/2016/03/10/2016%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
-    <id>http://yoursite.com/2016/03/10/2016年计划/</id>
-    <published>2016-03-09T16:30:39.000Z</published>
-    <updated>2016-04-11T17:15:46.000Z</updated>
-    
-    <content type="html">&lt;p&gt;fjdalfjdsaklfjdslkafjd&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;fjdalfjdsaklfjdslkafjd&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
